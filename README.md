@@ -1,5 +1,5 @@
 # learn-html-css-with-freecodecamp.org
 
-# LAYOUT
 
+# LAYOUT
 ![](project landing page/PictWeb.PNG)
