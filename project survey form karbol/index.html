@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Survey form</title>
+</head>
+<body>
+  
+  <div class="main">
+    <h1 id="title"> FORM PENDAFTARAN KARBOL 2022 </h1>
+    <p id="description"> isi form pendaftaran pada halaman pendaftaran karbol 2022 dan tes peminatan divisi kecabangan dan utama</p>
+    
+        <div class="main-content">
+        <div class="form-content"> 
+        <form id="survey-form">
+  
+          <label for="name"> name</label><br> 
+          <input id="name" type="text" required placeholder="isi nama anda"><br>
+  
+          <label for="email"> email</label><br>
+          <input id="email" type="text" required placeholder="isi email anda"><br>
+  
+          <label for="number"> asal panda </label><br>
+          <input id="number" type="text" required placeholder="isi asal panda"><br><br>
+          
+          <label for="p-korps">pilih korps divisi peminatan</label>
+          <select id="p-korps"> 
+            <option value="penerbang"> Penerbang</option>
+            <option value="paskhas"> Paskhas</option>
+            <option value="teknik"> Teknik</option>
+            <option value="administrasi"> Administrasi</option>
+            <option value="lainnya"> Lainnya</option>    
+          </select><br><br/><br>
+          
+          <fieldset>
+            <legend> dari sekolah ber tipe apa anda berasal </legend>
+            
+            <input type="radio" checked name="recommend" id="sma" value="SMA" >
+            <label for="sma">SMA</label> <br />
+             <input type="radio" name="recommend" id="smk" value="SMK" >
+            <label for="smk">SMK</label><br>
+            <input type="radio" name="recommend" id="ma" value="MA">
+            <label for="ma">MA</label> <br />
+                           
+          </fieldset>
+          
+          <p>Apa Target anda kedepannya jika terpilih kelak? </p><br>
+          
+          <div class="quest">
+          <input id="kasau" type="checkbox" name="action" values="kasau" >
+          <label for="kasau" >KASAU</label><br>
+          <input id="kasal" type="checkbox" name="action" values="kasal" >
+          <label for="kasau" >KASAL</label><br>
+          <input id="kasad" type="checkbox" name="action" values="kasad" >
+          <label for="kasad" >KASAD</label><br><br><br>
+            
+          <label for="last-quest"> Tuliskan Target pencapaian anda 15-25 tahun kedepan </label><br>
+            <textarea rows="9" cols="86" id="coment"> tulis disini.......</textarea>
+            <buton type="submit" id="submit">Submit</button>
+          </div>
+          
+         </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
